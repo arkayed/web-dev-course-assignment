@@ -1,6 +1,5 @@
 .logo {
   height: 70px;
-  /* border: 3px red solid; */
 }
 
 .nav {
@@ -74,8 +73,22 @@
   color: #024d1fc9;
 }
 
-.function-list {
-  list-style-position: inside;
+.function-list li {
+  cursor: pointer;
+  padding: 10px;
+  list-style: none inside;
+  background: #dddddd;
+  transition: 300ms ease-in-out;
+  color: #444444;
+}
+
+.function-list li:nth-child(odd) {
+  background: #dddddd57;
+}
+
+.function-list li:hover {
+  background: #024d1f36;
+  border-left: 15px #024d1f solid;
 }
 
 .social-media {
@@ -138,5 +151,9 @@
 
   .in {
     margin-bottom: 20px;
+  }
+
+  .footer p {
+    text-align: center;
   }
 }

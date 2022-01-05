@@ -12,14 +12,14 @@
   border-bottom: #ffa600 solid 2px;
 }
 
-.navigation a:hover {
-  color: #ffa600;
-  border-bottom: #ffa600 solid 2px;
-}
-
 .top-section {
   color: #ffffff;
   font-family: "DM Serif Display", serif;
+}
+
+.top-section h1::first-letter,
+.top-section p::first-letter{
+  text-transform: capitalize;
 }
 
 .quote {
@@ -82,7 +82,7 @@ label {
   color: #024d1f;
 }
 
-label::first-letter{
+label::first-letter {
   text-transform: capitalize;
 }
 
@@ -115,15 +115,15 @@ label:after {
 }
 
 .contact-info a,
-.social-media{
+.social-media {
   font-family: "Work Sans", sans-serif;
   font-size: 1.1rem;
   line-height: 1.7rem;
   display: block;
 }
 
-.contact-info *,
-.social-media *{
+.contact-info a,
+.social-media * {
   color: #110442;
   text-decoration: none;
 }
@@ -137,7 +137,7 @@ aside .social-media {
 }
 
 i {
-      width:45px;
+  width: 45px;
 }
 
 .contact-info a:hover {
@@ -172,6 +172,10 @@ i {
 }
 
 @media (max-width: 900px) {
+  .top-section * {
+    text-align: center;
+  }
+
   .top-section h1 {
     font-size: 2.5rem;
   }

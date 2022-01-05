@@ -9,6 +9,7 @@
 html {
   height: 100%;
 }
+
 body {
   min-height: 100vh;
   display: grid;
@@ -41,13 +42,13 @@ body {
   row-gap: 25px;
 }
 
-aside{
-    display: flex;
-    flex-direction: column;
-    background-color: #024d1f21;
-    padding: 25px;
-    gap:25px;
-    height:600px;
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #024d1f21;
+  padding: 25px;
+  gap: 25px;
+  height: 600px;
 }
 
 @media (min-width: 900px) {
