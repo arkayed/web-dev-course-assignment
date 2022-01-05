@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Assignment for Yoobee  Web Development Microcredential"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="A Kayed" />
+    <title>Contact Us | Assignment</title>
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <figure>
+          <a href="./index.html">
+            <img
+              class="logo"
+              src="./assets/images/pineapple-logo.jpg"
+              alt="pineapple logo"
+            />
+          </a>
+        </figure>
+        <ul class="navigation">
+          <li><a href="./index.html">home</a></li>
+          <li><a href="./list.html">list</a></li>
+          <li><a href="./contact.html">contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container contact row">
+        <h2 class="col-12">write to us</h2>
+        <p class="col-12 main-text">
+          Got an enquiry, suggestion or feedback? Please use this online form to
+          get in touch with us.
+        </p>
+        <form action="./success.html" class="row col-8">
+          <label class="col-3" for="firstname">first name</label>
+          <input
+            class="col-9 in"
+            type="text"
+            id="firstname"
+            required
+            placeholder="Type your first name here"
+          />
+
+          <label class="col-3" for="lastname">last name</label>
+          <input
+            class="col-9 in"
+            type="text"
+            id="lastname"
+            required
+            placeholder="Type your last name here"
+          />
+
+          <label class="col-3" for="email-ad">email address</label>
+          <input
+            class="col-9 in"
+            type="email"
+            id="email-ad"
+            required
+            placeholder="Type your email address here"
+          />
+
+          <label class="col-3" for="contact-no">phone number</label>
+          <input
+            class="col-9 in"
+            type="number"
+            id="contact-no"
+            required
+            placeholder="Type your phone number here"
+          />
+
+          <label class="col-3" for="message">your message</label>
+          <textarea
+            class="col-9 in"
+            name="message"
+            id="message"
+            rows="7"
+            required
+            placeholder="Type your message here"
+          ></textarea>
+          <input class="btn" type="submit" name="submit" />
+        </form>
+        <aside class="col-4">
+          <h2>contact us</h2>
+          <p class="main-text address">
+            00 street name<br />suburb name<br />city name 1111<br />new zealand
+          </p>
+          <div class="contact-info">
+            <a href="mailto:email@sample.com?subject=Subject">
+              <i class="fa-regular fa-envelope"></i>email@sample.com
+            </a>
+            <a href="tel:04-384-9624">
+              <i class="fas fa-mobile-alt"></i>04-384 9624
+            </a>
+          </div>
+          <h2>follow us</h2>
+          <div class="social-media">
+            <p>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook fa-2x"></i>@facebookpage
+              </a>
+            </p>
+            <p>
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram fa-2x"></i>@instagrampage
+              </a>
+            </p>
+            <p>
+              <a href="https://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter fa-2x"></i>@twitterpage
+              </a>
+            </p>
+            <p>
+              <a href="https://www.tiktok.com" target="_blank">
+                <i class="fab fa-tiktok fa-2x"></i>@tiktokpage
+              </a>
+            </p>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="nav footer">
+        <p><i class="far fa-copyright"></i>copyright aa productions</p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="https://www.tiktok.com" target="_blank">
+            <i class="fab fa-tiktok fa-2x"></i>
+          </a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
